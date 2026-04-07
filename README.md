@@ -29,7 +29,7 @@ KEY KPI Cards
 5.   Growth Metrics:
    * YoY Revenue Growth (+2%YoY)
    * YoY Units Growth (+2%YoY)
-   * Slicers for filtering for further analysis
+6.  Slicers: For filtering for further analysis 
 
 
 The Excel dashboard includes the following charts:
