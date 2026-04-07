@@ -36,7 +36,7 @@ The Excel dashboard includes the following charts:
 - 💹 Top model that generated the highest revenue is X7-best selling BMW model (Revenue by Model)
 - 🚗 Top model that generated the highest unit sold is IX-best selling unit (Unit sold by Model)
 - 🗺️ Top selling region is China (Revenue by Region)
-- 🧑‍🤝‍🧑 Regional sales breakdown - Total Revenue by Model and by Region (This shows all models sold in each region and X7 model top in all region 
+- 📊 Regional sales breakdown - Total Revenue by Model and by Region (This shows all models sold in each region and X7 model top in all region 
 - 📊 Sales by total boxes
 - 🗺️ Regional sales performance for top 5 products
 
