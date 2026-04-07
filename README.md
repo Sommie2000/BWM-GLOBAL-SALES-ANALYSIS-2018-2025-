@@ -27,9 +27,10 @@ KEY KPI Cards
 4. 🚗 Premium Share:
    > Proportion of premium vehicles sold (-2%YoY)
 5.   Growth Metrics:
-   > YoY Revenue Growth (+2%YoY)
-    YoY Units Growth (+2%YoY)
-    Slicers for filtering for further analysis
+   * YoY Revenue Growth (+2%YoY)
+   * YoY Units Growth (+2%YoY)
+   * Slicers for filtering for further analysis
+
 
 The Excel dashboard includes the following charts:
 - 💹 Sales performance in each country (sales by country)
