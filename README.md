@@ -33,9 +33,9 @@ KEY KPI Cards
 
 
 The Excel dashboard includes the following charts:
-- 💹 Top Model that generated the highest revenue is X7-best selling BMW model (Revenue by Model)
-- 📈 Top Model that generated the highest unit sold is IX-best selling unit (Unit sold by Model)
-- 🍫 Product sales performance (sales by products)
+- 💹 Top model that generated the highest revenue is X7-best selling BMW model (Revenue by Model)
+- 🚗 Top model that generated the highest unit sold is IX-best selling unit (Unit sold by Model)
+- 🗺️ Top selling region is China (Revenue by Region)
 - 🧑‍🤝‍🧑 Top 10 sales Person
 - 📊 Sales by total boxes
 - 🗺️ Regional sales performance for top 5 products
