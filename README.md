@@ -14,3 +14,28 @@ This project analyses global sales performance for BMW from 2018-2025 and the in
 
 ### PROJECT OVERVIEW
 This Project analyzes BMW globl sales performance from 2018-2025, focusing on growth, product strategy, revenue, models performance, market strength, economic indicators, regional sales and macroeconomic impact revealing a strategic shift. I used power query editor for data cleaning and excel for data transformation and visualization.
+
+
+
+
+### EXCEL DASHBOARD 
+KEY KPI Cards
+1. 💹 Total Revenue: $1571B
+2. 🚙 Total Units Sold: $25M
+3. 🚗 BEV Share:
+   > Percentage of battery electric vehicles (EV adoption trends) (+14%YoY)
+4. 🚗 Premium Share:
+   > Proportion of premium vehicles sold (-2%YoY)
+5.   Growth Metrics:
+  >  YoY Revenue Growth (+2%YoY)
+    YoY Units Growth (+2%YoY)
+    Slicers for filtering for further analysis
+
+The Excel dashboard includes the following charts:
+- 💹 Sales performance in each country (sales by country)
+- 📈 Monthly sales trend
+- 🍫 Product sales performance (sales by products)
+- 🧑‍🤝‍🧑 Top 10 sales Person
+- 📊 Sales by total boxes
+- 🗺️ Regional sales performance for top 5 products
+
