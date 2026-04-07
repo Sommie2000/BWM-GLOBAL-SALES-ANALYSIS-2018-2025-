@@ -11,3 +11,6 @@ This project analyses global sales performance for BMW from 2018-2025 and the in
 * [Interactive Analysis](#interactive-analysis)
 * [Recommendation](#recommendation)
 * [Data Source](#data-source)
+
+### PROJECT OVERVIEW
+This Project analyzes BMW globl sales performance from 2018-2025, focusing on growth, product strategy, revenue, models performance, market strength, economic indicators, regional sales and macroeconomic impact revealing a strategic shift. I used power query editor for data cleaning and excel for data transformation and visualization.
