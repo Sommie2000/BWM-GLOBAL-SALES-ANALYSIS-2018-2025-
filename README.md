@@ -61,6 +61,6 @@ DASHBOARD CHARTS
   > Which proves an important business lesson, high sales volume does not always mean high revenue
 - 🗺️ Top selling region is China (Revenue by Region)
 - 📊 Regional sales breakdown - Total Revenue by Model and by Region (This shows all models sold in each region and X7 model top in all the regions
-- 📊 Sales by total boxes
-- 🗺️ Regional sales performance for top 5 products
+- BEV_Share vs Premium Share: This revealed an interesting strategic shift while premium share declined slightly by 2% (-2%YoY), overall revenue increased, supported by a strong 14% YoY growth in BEV_Share
+- GDP Growth vs Fuel Price Index: The chart compares the trend of fuel price index and GDP growth from 2018 to 2025
 
