@@ -40,10 +40,8 @@ DATASET SAMPLE PREVIEW:
 |2018|	1/10/1900|	Tue|	China|	MINI|	$2.7K|	$42K|	$114M|	0.025|	19.19|	5.28|	0.92|
 
 
-
-
 ### EXCEL DASHBOARD 
-KEY KPI Cards
+KPI Cards
 1. 💹 Total Revenue: $1571B
 2. 🚙 Total Units Sold: $25M
 3. 🚗 BEV Share:
@@ -53,14 +51,16 @@ KEY KPI Cards
 5.   Growth Metrics:
    * YoY Revenue Growth (+2%YoY)
    * YoY Units Growth (+2%YoY)
-6.  Slicers: For filtering for further analysis 
+6.  Slicers: Year and Region are the slicers i used for filtering for further analysis 
 
+DASHBOARD CHARTS
 
-The Excel dashboard includes the following charts:
 - 💹 Top model that generated the highest revenue is X7-best selling BMW model (Revenue by Model)
 - 🚗 Top model that generated the highest unit sold is IX-best selling unit (Unit sold by Model)
+  > But here is what is surprising: IX Series model is the most sold unit yet X7 series generated the highest revenue ($286B)
+  > Which proves an important business lesson, high sales volume does not always mean high revenue
 - 🗺️ Top selling region is China (Revenue by Region)
-- 📊 Regional sales breakdown - Total Revenue by Model and by Region (This shows all models sold in each region and X7 model top in all region 
+- 📊 Regional sales breakdown - Total Revenue by Model and by Region (This shows all models sold in each region and X7 model top in all the regions
 - 📊 Sales by total boxes
 - 🗺️ Regional sales performance for top 5 products
 
