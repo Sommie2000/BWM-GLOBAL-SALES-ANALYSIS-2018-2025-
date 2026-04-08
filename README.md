@@ -25,7 +25,8 @@ COLUMNS:
 - Model	
 - Units_Sold	
 - Avg_Price_EUR	
-- Revenue_EUR	BEV_Share
+- Revenue_EUR
+- BEV_Share
 - Premium_Share
 - GDP_Growth
 - Fuel_Price_Index
@@ -40,6 +41,13 @@ DATASET SAMPLE PREVIEW:
 |2018|	1/10/1900|	Tue|	China|	MINI|	$2.7K|	$42K|	$114M|	0.025|	19.19|	5.28|	0.92|
 
 
+[Dataset file showing the pivot tables][bmw_global_sales_2018_2025.xlsx](https://github.com/user-attachments/files/26570700/bmw_global_sales_2018_2025.xlsx)
+
+
+### DATA CLEANING
+- Changed date and amount datatype to date and currency format 
+- Removed, duplicate, missing or invalid values using 
+  
 ### EXCEL DASHBOARD 
 KPI Cards
 1. 💹 Total Revenue: $1571B
@@ -63,4 +71,42 @@ DASHBOARD CHARTS
 - 📊 Regional sales breakdown - Total Revenue by Model and by Region (This shows all models sold in each region and X7 model top in all the regions
 - BEV_Share vs Premium Share: This revealed an interesting strategic shift while premium share declined slightly by 2% (-2%YoY), overall revenue increased, supported by a strong 14% YoY growth in BEV_Share
 - GDP Growth vs Fuel Price Index: The chart compares the trend of fuel price index and GDP growth from 2018 to 2025
+
+### DASHBOARD
+
+<img width="811" height="459" alt="BMW sales Dashboard" src="https://github.com/user-attachments/assets/59a21d37-aa23-4089-baf2-ba121821fdd6" />
+
+
+### KEY INSIGHTS 
+1. Australia emerged as the highest revenue generating country with 18%, indicating strong market demand and effective regional sales performance while New Zealand generated the lowest revenuewith 15%
+2. Revenue peaked in June and July, revealing a possible seasonal buying pattern, this insight could be;
+   > Seasonal inventoy planning, Targeted marketing campaigns and Promotional timing strategies
+3. Smooth silky salty chocolate product contributed the highest revenue, suggesting strong product-market fit, customer preference and demand while the product with the lowest revenue is the 70% dark bites
+4. The top sales person is Ches Bonnell, Ches Bonnell generated the highest sales revenue, demostrating strong sales effectiveness
+5. The top selling product with the highest boxes shipped is the 50% dark bites chocolate even if it didnt drive the highest sales revenue
+
+### INTERACTIVE ANALYSIS 
+To enhance usability, I integrated a Year Slicer, allowing dynamic filtering of the performance metrics across different years. 
+This helps uncover;
+- Year-over-year performance change
+- Shifts in product demand
+- Trend Analysis
+- Performance tracking by period
+- Market growth patterns
+
+### RECOMMENDATION   
+* Expand distribution of smooth silky salty chocolate and review pricing strategies for low margin products such as 70% dark bites and caramel stuffed bars chocolates
+* Analyze underperforming products and months for improvement opportunities
+* Stregthening top markets in Australia and also support underperforming countries
+* The company can optimize revenue growth and sales strategy
+* Leverage peak months (june and july) with promotions
+
+### DATA SOURCE
+This data was gotten from Kaggle
+[Download here](https://www.kaggle.com/datasets?search=chocolate+sales)
+
+
+
+
+
 
