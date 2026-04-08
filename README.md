@@ -5,12 +5,14 @@ This project analyses global sales performance for BMW from 2018-2025 and the in
 * [Project Overview](#project-overview)
 * [Dataset Overview](#dataset-overview)
 * [Data Cleaning](#data-cleaning)
+* [Tools](#tools)
 * [Excel Dashboard](#excel-dashboard)
 * [Dashboard](#dashboard)
 * [Key Insights](#key-insights)
 * [Interactive Analysis](#interactive-analysis)
 * [Recommendation](#recommendation)
 * [Data Source](#data-source)
+* [Conclusion](#conclusion)
 
 ### PROJECT OVERVIEW
 This Project analyzes BMW globl sales performance from 2018-2025, focusing on growth, product strategy, revenue, models performance, market strength, economic indicators, regional sales and macroeconomic impact revealing a strategic shift. I used power query editor for data cleaning and excel for data transformation and visualization.
@@ -46,7 +48,10 @@ DATASET SAMPLE PREVIEW:
 
 ### DATA CLEANING
 - Changed date and amount datatype to date and currency format 
-- Removed, duplicate, missing or invalid values using 
+- Removed, duplicate, missing or invalid values
+
+### TOOLS
+Excel |Power Query Editor
   
 ### EXCEL DASHBOARD 
 KPI Cards
@@ -59,14 +64,12 @@ KPI Cards
 5.   Growth Metrics:
    * YoY Revenue Growth (+2%YoY)
    * YoY Units Growth (+2%YoY)
-6.  Slicers: Year and Region are the slicers i used for filtering for further analysis 
+
 
 DASHBOARD CHARTS
 
-- 💹 Top model that generated the highest revenue is X7-best selling BMW model (Revenue by Model)
-- 🚗 Top model that generated the highest unit sold is IX-best selling unit (Unit sold by Model)
-  > But here is what is surprising: IX Series model is the most sold unit yet X7 series generated the highest revenue ($286B)
-  > Which proves an important business lesson, high sales volume does not always mean high revenue
+- 💹 Top model that generated the highest revenue is X7 (Revenue by Model)
+- 🚗 Top model that generated the highest unit sold is IX (Unit sold by Model)
 - 🗺️ Top selling region is China (Revenue by Region)
 - 📊 Regional sales breakdown - Total Revenue by Model and by Region (This shows all models sold in each region and X7 model top in all the regions
 - BEV_Share vs Premium Share: This revealed an interesting strategic shift while premium share declined slightly by 2% (-2%YoY), overall revenue increased, supported by a strong 14% YoY growth in BEV_Share
@@ -78,15 +81,20 @@ DASHBOARD CHARTS
 
 
 ### KEY INSIGHTS 
-1. Australia emerged as the highest revenue generating country with 18%, indicating strong market demand and effective regional sales performance while New Zealand generated the lowest revenuewith 15%
-2. Revenue peaked in June and July, revealing a possible seasonal buying pattern, this insight could be;
-   > Seasonal inventoy planning, Targeted marketing campaigns and Promotional timing strategies
-3. Smooth silky salty chocolate product contributed the highest revenue, suggesting strong product-market fit, customer preference and demand while the product with the lowest revenue is the 70% dark bites
-4. The top sales person is Ches Bonnell, Ches Bonnell generated the highest sales revenue, demostrating strong sales effectiveness
-5. The top selling product with the highest boxes shipped is the 50% dark bites chocolate even if it didnt drive the highest sales revenue
+1. X7 is the best selling BMW model that generated the highest revenue while the lowest generated revenue is the Mini series model
+2. IX is the best selling BMW unit
+  > But here is what is surprising: IX Series model is the most sold unit yet X7 series generated the highest revenue ($286B)
+  > Which proves an important business lesson, high sales volume does not always mean high revenue
+3. Regional sales breakdown - This shows all models sold in each region and X7 model top the highest in all the regions then followed by IX model
+4. China is the top selling region with the highest generated revenue ($402B)
+5. BEV_Share vs Premium share:
+ > This revealed an interesting strategic shift, while premium share declined slightly by 2% (-2%YoY), overall revenue increased, supported by a strong 14% YoY growth in BEV share. This suggests that accelerated electric vehicle adoption is reshaping the traditional product mix without compromising financial performance. The data reflects a strategic transition phase — where electrification is not only growing rapidly but actively driving revenue expansion
+6. Economic Indicators:
+ > GDP Growth vs Fuel Price Index, The chart compares the trend of fuel price index and GDP growth from 2018 to 2025. Fuel prices show a gradual increase over the period, while GDP growth fluctuates and slightly declines. This suggests that rising fuel costs may place pressure on economic growth and consumer purchasing power, which can influence vehicle demand and aaccelerate the shift toward electric mobility.
 
+ 
 ### INTERACTIVE ANALYSIS 
-To enhance usability, I integrated a Year Slicer, allowing dynamic filtering of the performance metrics across different years. 
+To enhance usability, I integrated Year and Region Slicer, allowing dynamic filtering of the performance metrics across different years and regions. 
 This helps uncover;
 - Year-over-year performance change
 - Shifts in product demand
@@ -95,15 +103,28 @@ This helps uncover;
 - Market growth patterns
 
 ### RECOMMENDATION   
-* Expand distribution of smooth silky salty chocolate and review pricing strategies for low margin products such as 70% dark bites and caramel stuffed bars chocolates
-* Analyze underperforming products and months for improvement opportunities
-* Stregthening top markets in Australia and also support underperforming countries
-* The company can optimize revenue growth and sales strategy
-* Leverage peak months (june and july) with promotions
+1️⃣ Accelerate Electrification Strategy
+- The strong growth in BEV share, BMW should continue investing in electric vehicle production, innovation, and infrastructure to meet increasing demand and stay competitive in the evolving automotive market
+
+2️⃣ Optimize Product Mix
+- With a slight decline in premium share, BMW can reassess its product positioning by balancing luxury offerings with more accessible or electric alternatives to capture a broader market segment
+
+3️⃣ Leverage High-Performing Regions
+- Regional performance insights should guide targeted marketing and expansion strategies, focusing on regions with the highest revenue contribution and growth potential
+
+4️⃣ Monitor Economic Indicators
+- Since fuel prices and GDP growth impact consumer purchasing power, BMW should incorporate macroeconomic trends into forecasting and pricing strategies to remain resilient during economic fluctuations
+
+5️⃣ Strengthen Data-Driven Decisions
+- Continuously using data analytics for demand forecasting, customer preferences, and market trends will help BMW make proactive and informed strategic decisions
 
 ### DATA SOURCE
 This data was gotten from Kaggle
-[Download here](https://www.kaggle.com/datasets?search=chocolate+sales)
+[Download here]()
+
+### CONCLUSION
+This analysis reinforced an important lesson, Sales performance doesn't exist in isolation, it's influenced by product strategy, economic conditions, and market positioning. The analysis of BMW’s global sales data from 2018 to 2025 shows a steady growth in overall performance, supported by consistent revenue trends and strong market contributions across key regions.
+A major highlight is the significant increase in Battery Electric Vehicle (BEV) share, indicating a clear shift toward electrification. Meanwhile, premium vehicle share remains relatively stable with slight fluctuations, suggesting a gradual evolution in product mix. Additionally, external factors such as rising fuel prices and fluctuating GDP growth provide important context for changing consumer behavior and demand patterns.
 
 
 
